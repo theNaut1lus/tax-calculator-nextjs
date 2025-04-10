@@ -1,5 +1,7 @@
 # Tax Calculator
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1d622106-42ed-4cab-a865-19d76bec697a/deploy-status)](https://app.netlify.com/sites/tax-calc-sidney/deploys)
+
 A simple and intuitive tax calculator web application built with Next.js that helps users calculate their income tax based on Australian tax brackets for different financial years.
 
 As part of an interview process with an organisation

@@ -4,7 +4,7 @@ export function Footer() {
             <div className="flex justify-between mx-auto text-center px-5 py-5 sticky bottom-0 z-50 w-full border-t bg-background">
                 <div>
                     <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Sidney Aulakh. All rights reserved.</p>
-                    <p className="text-xs text-muted-foreground">This is just a proof of concept, please visit the <a href="https://www.ato.gov.au/single-page-applications/calculatorsandtools?anchor=STC#STC/questions">official ATO website</a> for accurate information, <br /> the developer doesn't assume any responsiblity for any calculations done using this app.</p>
+                    <p className="text-xs text-muted-foreground">This is just a proof of concept, please visit the <a href="https://www.ato.gov.au/single-page-applications/calculatorsandtools?anchor=STC#STC/questions">official ATO website</a> for accurate information, <br /> the developer doesn`&apos;`t assume any responsiblity for any calculations done using this app.</p>
                 </div>
                 <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
                     <li>

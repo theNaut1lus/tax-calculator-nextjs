@@ -5,6 +5,7 @@ import "./globals.css"
 import { Navbar } from "@/components/navbar"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ClerkProvider } from "@clerk/nextjs"
+import { Footer } from "@/components/footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -26,7 +27,10 @@ export default function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
             <div className="relative flex min-h-screen flex-col">
               <Navbar />
-              <main className="flex-1">{children}</main>
+              <main className="flex-1">
+                {children}
+                <Footer />
+              </main>
             </div>
           </ThemeProvider>
         </body>

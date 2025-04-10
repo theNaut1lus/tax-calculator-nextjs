@@ -11,6 +11,9 @@ As part of an interview process with an organisation
 - Detailed breakdown of tax by income brackets
 - Responsive design with dark/light mode support
 - Simple and user-friendly interface
+- Authorisation baked-in using Clerk Auth
+- Deployed to Netlify with integrated CI/CD
+- Custom CI setup on all branches
 
 ## Libraries and Technologies Used
 
@@ -52,4 +55,4 @@ pnpm run dev
 ```
 
 TODO:
-linter complaining for any[] declaration for string of tax brackets.
+Fix redirect to sign-in page after first user signup.

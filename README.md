@@ -23,6 +23,8 @@ As part of an interview process with an organisation
 - **Lucide React** - Icon library
 - **TypeScript** - Typed JavaScript
 - **Clerk Auth** - Amazing plug and play auth provided by Clerck, generous free tier.
+- **GitHub CI Yaml** - Continous Integration with GitHub CI yaml file.
+- **Netlify CD** - Netlify for hosting and quick deployment along with it's in-built CD features.
 
 ## Getting Started
 
@@ -47,3 +49,8 @@ configure your .env as per the .env.example file, setup clerk auth keys, visit [
 ```bash
 pnpm init
 pnpm run dev
+```
+
+TODO:
+route to /calculator view after successful sign-on.
+linter complaining for any[] declaration for string of tax brackets.

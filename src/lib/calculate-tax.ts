@@ -30,6 +30,12 @@ export const TAX_BRACKETS_BY_YEAR = {
 }
 
 export type FinancialYear = keyof typeof TAX_BRACKETS_BY_YEAR
+export interface Brackets {
+  range: string
+  rate: string
+  taxableAmount: number
+  tax: number
+}
 
 export function calculateTax(income: number, year: FinancialYear = "2024-2025") {
   const TAX_BRACKETS = TAX_BRACKETS_BY_YEAR[year]

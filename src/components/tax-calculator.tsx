@@ -2,14 +2,17 @@
 
 import { useState } from "react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { calculateTax, type FinancialYear } from "@/lib/calculate-tax"
+import { Brackets, calculateTax, type FinancialYear } from "@/lib/calculate-tax"
 import { TaxCalculatorForm } from "./tax-calculator-form"
 import { TaxResultsTable } from "./tax-results-table"
+
+//to set the type of brackets array of objects that I will be receiving from the calculateTax function.
+
 
 export function TaxCalculator() {
   const [income, setIncome] = useState<string>("")
   const [financialYear, setFinancialYear] = useState<FinancialYear>("2023-2024")
-  const [taxData, setTaxData] = useState<{ brackets: any[]; totalTax: number } | null>(null)
+  const [taxData, setTaxData] = useState<{ brackets: Brackets[]; totalTax: number } | null>(null)
 
   // Custom handler for income changes
   const handleIncomeChange = (value: string) => {

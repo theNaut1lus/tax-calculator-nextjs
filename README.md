@@ -57,4 +57,4 @@ pnpm run dev
 ```
 
 TODO:
-Fix redirect to sign-in page after first user signup.
+
